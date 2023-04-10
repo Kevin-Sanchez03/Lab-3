@@ -15,9 +15,9 @@ header {
   border: solid black 3px;
 }
 
-nav {
+.nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: lightblue;
   margin-bottom: 1em;
   padding: 0.3em;
