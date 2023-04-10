@@ -15,6 +15,12 @@ header {
   border: solid black 3px;
 }
 
+.main-content {
+  background-color: lightblue;
+  border: solid black 3px;
+  margin: 1em;
+}
+
 .nav {
   display: flex;
   justify-content: space-evenly;
