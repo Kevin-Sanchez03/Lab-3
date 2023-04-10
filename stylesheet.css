@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  height: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+  margin-bottom: 0.4em;
+  padding: 1em;
+  border: solid black 3px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  margin-bottom: 1em;
+  padding: 0.3em;
+  border: solid black 3px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 1em 0.2em;
+  background-color: lightblue;
+  border: solid black 3px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: lightblue;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: solid black 3px;
+}
+
+img {
+  height: 10em;
+  width: 11em;
+}
