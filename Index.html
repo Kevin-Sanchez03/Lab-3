@@ -4,23 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Exercise 3</title>
+    <title>CIS 166</title>
+    <script src="jquery-1.8.3.min.js"></script>
+    <script src="jquery.elevatezoom.js"></script>
+    <script type="text/javascript" src="JavaScript.js"></script>
+
     <link rel="stylesheet" href="stylesheet.css" />
   </head>
+
   <body>
     <header>
-      <h1>Title</h1>
+      <h1>Index</h1>
     </header>
     <div class="nav">
       <a href="Index.html">Index</a>
-      <a href="page2.html">Page 2</a>
-      <a href="page3.html">Page 3</a>
+      <a href="Slideshow.html">Slideshow</a>
+      <a href="contact.html">Contact</a>
     </div>
-    <div class="main-content"><p>Place Holder</p></div>
+    <div class="main-content">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2">The table header</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <footer>
-      <p>Footer</p>
+      <img
+        id="zoom_01"
+        src="images/small/small.lake.jpg"
+        data-zoom-image="images/large/lake.jpg"
+      />
     </footer>
   </body>
-  <script type="text/javascript" src="JavaScript.js"></script>
+  <script>
+    $("#zoom_01").elevateZoom({
+      zoomType: "inner",
+      cursor: "crosshair",
+      zoomWindowFadeIn: 500,
+      zoomWindowFadeOut: 750,
+    });
+  </script>
 </html>

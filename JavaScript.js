@@ -30,3 +30,11 @@ carouselPrev.addEventListener("click", showPrevSlide);
 carouselNext.addEventListener("click", showNextSlide);
 
 setInterval(showNextSlide, 3000);
+
+var Kevin = "Hello World";
+alert(Kevin);
+
+console.log("Test console log");
+console.log(5 + 10);
+console.log(5 * 10);
+console.log(5 + 10);
